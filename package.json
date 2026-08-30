@@ -1,0 +1,14 @@
+{
+  "name": "creator-fanout-queue",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/fanout.test.ts",
+    "demo": "node --experimental-strip-types src/fanout.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
